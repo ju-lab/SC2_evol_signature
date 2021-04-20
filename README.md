@@ -1,13 +1,6 @@
 
-# COVID19 mutational signature profile database
+# Sig_COVID19: COVID19 mutational signature database <img src="logo.png" align="right" width="120" />
 
-This is ...
 
 ```
-msa_0117.signature_table.txt
 ```
-
-link ...
-
-
-aa
