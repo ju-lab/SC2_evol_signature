@@ -47,7 +47,7 @@ plot(tree)
 
 ## Citation
 
-If you use Sig_COVID19 please cite: (will be updated)
+If you use Sig_COVID19, please cite: (will be updated)
 ```
 Yi K. et al, 2020, Mutational spectrum of SARS-CoV-2 during the global pandemic, XXXXXXXXX XXX-XXXX
 ```
