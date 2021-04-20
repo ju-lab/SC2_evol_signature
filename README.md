@@ -1,5 +1,5 @@
 
-# Sig_COVID19 <img src="logo.png" align="right" width="120" />
+# Sig_COVID19 <img src="logo22.png" align="right" width="120" />
 
 Sig_COVID19 is a repository to share mutational signature data constructed from evolution of virus sequences (mainly SARS-CoV-2). Because virus genomes are often single stranded, this signature consists of 192-context, which is twice that of the COSMIC signature. This Repository also provides mutational signatures of various viruses in addition to SARS-CoV-2. The full lists of mutations and phylogenetic tree is also available.
 
