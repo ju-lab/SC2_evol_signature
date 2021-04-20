@@ -15,9 +15,16 @@ wget https://github.com/ju-lab/SC2_evol_signature/raw/master/data/msa_0117.tree.
 gzip -d msa_0117.tree.gz
 
 
-# Download single base substitution
+# Download per sample information
 
-gwet https://github.com/ju-lab/SC2_evol_signature/raw/master/data/SBS.tsv
+wget https://github.com/ju-lab/SC2_evol_signature/raw/master/data/Per_sample_mutation_list.csv.gz
+wget https://github.com/ju-lab/SC2_evol_signature/raw/master/data/GISAID_metadata.csv
+wget https://github.com/ju-lab/SC2_evol_signature/raw/master/data/loglikelihood_to_be_root_and_outgroup_distance.csv
+
+
+# Download annotated mutation information
+
+wget https://github.com/ju-lab/SC2_evol_signature/raw/master/data/All_mutation_information.csv.gz
 
 
 # Download all data
