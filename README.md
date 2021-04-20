@@ -35,14 +35,13 @@ git clone https://github.com/ju-lab/SC2_evol_signature.git
 
 ## Data format
 
-The phylogenetic tree file is in the **`newick`** format with sample IDs (tip labels) and node names. These names are useful for indexing the mutation data. The tree file can be loaded on R with  `read.tree` function in the `ape` package.
+The phylogenetic tree file is in the **`newick`** format with sample IDs (tip labels) and node names. These names are useful for indexing the mutation data. The tree file can be loaded on R with  `read.tree` function in the `ape` package. The tree object can be further explored using `ape`, `phangorn`, and other `R` packages and softwares. 
 
 ```R
 library(ape)
 tree <- read.tree("msa_0117.tree")
 plot(tree)
 ```
-
 
 
 ## Citation
