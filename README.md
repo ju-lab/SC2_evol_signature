@@ -33,5 +33,18 @@ git clone https://github.com/ju-lab/SC2_evol_signature.git
 
 ```
 
+## data format
+
+The phylogenetic tree file is in the **`newick`** format with sample IDs (tip labels) and node names. These names are useful for indexing the mutation data. The tree file can be loaded on R with  `read.tree` function in the `ape` package.
+
+```{R}
+library(ape)
+tree <- read.tree("msa_0117.tree")
+plot(tree)
+```
+
+
+
+
 If you use Sig_COVID19 please cite: (will be updated)
 Yi K. et al, 2020, Mutational spectrum of SARS-CoV-2 during the global pandemic, XXXXXXXXX XXX-XXXX
