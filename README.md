@@ -8,7 +8,7 @@ You can download
 * selected data
 * all data of therepository
 
-```
+```bash
 # Download phylogenetic tree data
 
 wget https://github.com/ju-lab/SC2_evol_signature/raw/master/data/msa_0117.tree.gz
@@ -37,7 +37,7 @@ git clone https://github.com/ju-lab/SC2_evol_signature.git
 
 The phylogenetic tree file is in the **`newick`** format with sample IDs (tip labels) and node names. These names are useful for indexing the mutation data. The tree file can be loaded on R with  `read.tree` function in the `ape` package.
 
-```{R}
+```R
 library(ape)
 tree <- read.tree("msa_0117.tree")
 plot(tree)
@@ -48,5 +48,6 @@ plot(tree)
 ## Citation
 
 If you use Sig_COVID19 please cite: (will be updated)
-
+```
 Yi K. et al, 2020, Mutational spectrum of SARS-CoV-2 during the global pandemic, XXXXXXXXX XXX-XXXX
+```
